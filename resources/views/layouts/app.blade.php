@@ -21,6 +21,9 @@
  
      <link href="{{ asset('css/style.css') }}" rel="stylesheet" >
 
+  {{--アイコン--}}
+  <script src="https://kit.fontawesome.com/22ccb04945.js" crossorigin="anonymous"></script>
+
      <title>
       【薪販売】富山市の薪の販売 【薪ストーブ用】
      </title>

@@ -1,0 +1,11 @@
+.footer{
+  text-align: center; /* テキストを中央揃えにする */
+  margin: 0 auto; /* 要素を水平方向に中央配置する */
+  width: 100%; /* 画面幅の50%に要素を配置する（任意の幅に調整してください） */
+  border: 1px solid black; /* 要素の境界線を表示する（任意のスタイルに調整してください） */
+  padding: 20px; /* 要素の内側の余白を設定する */
+
+}
+div{
+  /*border:1px solid black;*/
+}
