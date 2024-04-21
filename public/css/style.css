@@ -2,10 +2,24 @@
   text-align: center; /* テキストを中央揃えにする */
   margin: 0 auto; /* 要素を水平方向に中央配置する */
   width: 100%; /* 画面幅の50%に要素を配置する（任意の幅に調整してください） */
-  border: 1px solid black; /* 要素の境界線を表示する（任意のスタイルに調整してください） */
-  padding: 20px; /* 要素の内側の余白を設定する */
+  /* border: 1px solid black; 要素の境界線を表示する（任意のスタイルに調整してください） */
+  padding: 0px; /* 要素の内側の余白を設定する */
 
 }
 div{
   /*border:1px solid black;*/
+}
+h3{
+ background-color: beige;
+ /*color:antiquewhite*/
+}
+li{
+  display:inline-block;/*横並び*/
+  list-style-type:disc;/*要素をブロックレベル要素として表示*/
+  margin-block-start:1em;/*リストのマーカーを円形のディスクに設定*/
+  margin-block-end:1px;/*リストの上側のマージンを設定*/
+  margin-inline-start:0px;/*リストの下側のマージンを設定*/
+  margin-inline-end:0px;/*右側のマージン*/
+  padding-inline-start:40px;/*左側のマージン*/
+  unicode-bidi:isolate;/**/
 }

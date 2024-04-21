@@ -47,7 +47,7 @@
   </div>
 
   <div class="row">
-    <h3>引き取り場所</h3>
+    <h3 style="text-align: center;">引き取り場所</h3>
     <div class="col-8">
 
     @include('index.place-carousel')
@@ -81,7 +81,7 @@
   
   <div class="row text-center">
     
-    <h1>お問い合わせ</h1>
+    <h3>お問い合わせ</h3>
     <p>お問い合わせ・ご注文は、下記電話にて承っています</p>
     <p>TEl:076-451-8048</p>
     <p>営業時間　9:00～17:00</p>
