@@ -6,21 +6,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('img/maki_1.jpg') }}" class="d-block w-100" alt="..." style="height: 300px;">
+      <img src="{{ asset('img/img1.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;wide:300px">
       <div class="carousel-caption d-none d-md-block">
         <h5>【針葉樹】松の木</h5>
         <p>非常に火が付きやすく燃焼時間が長いです。</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('img/maki_2.jpg') }}" class="d-block w-100" alt="..." style="height: 300px;">
+      <img src="{{ asset('img/img2.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
         <h5>【広葉樹】ナラの木</h5>
         <p>火力が高く火持ちが良いです。</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('img/maki_3.jpeg') }}" class="d-block w-100" alt="..." style="height: 300px;">
+      <img src="{{ asset('img/img3.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
         <h5>【広葉樹】ケヤキ</h5>
         <p>燃焼時間が長く、薪ストーブや暖炉での使用に最適です。</p>

@@ -84,3 +84,47 @@ ul{
     display: none;
   }
 }
+/*画像の上に画像*/
+.parent {
+  position: relative; /* 親要素に相対的な位置を設定 */
+  max-width: 1500px;
+ 
+}
+.background-image{
+   filter: blur(1px); /* 境界をぼかす */
+}
+.overlay-image {
+  position: absolute; /* 重ねる画像に絶対的な位置を設定 */
+  top: 25%; /* 上端に配置 */
+  left: 20%; /* 左端に配置 */
+  width: 300px; /* デフォルトの幅 */
+  height: 800px; /* デフォルトの高さ */
+  box-shadow: 10px 10px 5px #bbbbbb;
+  transform: rotate(-5deg);
+  object-fit: cover;
+  
+}
+
+/* モバイルデバイス用のスタイル */
+@media screen and (max-width: 767px) {
+  .overlay-image {
+    width: 200px; /* モバイルデバイスの幅 */
+    height: 500px; /* モバイルデバイスの高さ */
+  }
+}
+
+/* タブレットデバイス用のスタイル */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .overlay-image {
+    width: 250px; /* タブレットデバイスの幅 */
+    height: 600px; /* タブレットデバイスの高さ */
+  }
+}
+
+/* デスクトップデバイス用のスタイル */
+@media screen and (min-width: 1024px) {
+  .overlay-image {
+    width: 300px; /* デスクトップデバイスの幅 */
+    height: 800px; /* デスクトップデバイスの高さ */
+  }
+}

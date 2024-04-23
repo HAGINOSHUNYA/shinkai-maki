@@ -11,50 +11,29 @@
     
   </div>
 
-  <div class="row">
-    <h3 style="text-align: center;">商品の紹介</h3>
-    <div class=col-6>
-    <img src="{{ asset('img/maki_2.jpg') }}" class="d-block w-100" alt="..." style="height: 200px;">
-    </div>
-  <div class="col-6">
-    <h4>薪の説明・特徴</h4>
-    <p>薪の種類</br>
-      ケヤキ（広葉樹）・ナラ（広葉樹）<br>
-      堅く、火持ちしやすい広葉樹を常時乾燥した状態でご用意しています。</p>
-    </p>
-    <p>
-      薪の長さ<br>
-      36~40cm
-    </p>
-    
-
-  </div>
   
+    <h3 style="text-align: center;">商品の紹介</h3>
+      <div class="row parent">
+         <img src="{{ asset('img/img5.jpg') }}" class="background-image" alt="..." style="height: 500px;">
+        <div class="col-12 ">
+          <img src="{{ asset('img/img2.jpg') }}" class="overlay-image" alt="..." style="height: 250px;">
+        </div>
+      </div>
+
   <div class="row">
     <h3 style="text-align: center;">価格</h3>
+    <div class="col-8">
+        @include('index.place-carousel')
+    </div>
      <div class="col-4">
-       <img src="{{ asset('img/maki_2.jpg') }}" class="d-block w-100" alt="会社の外観" style="height: 200px;">
-     </div>
-     <div class="col-8">
-      <p>
-        メッシュカゴ<br>約1㎥:￥29600円(税込)
-      </p>
-      <p>
-        配達:5000円～
-      </p>
-
+      <p>メッシュカゴ<br>約1㎥:￥27000円(税抜き)</p>
+      <p>配達:5000円～</p>
      </div>
   </div>
 
   <div class="row">
     <h3 style="text-align: center;">引き取り場所</h3>
-    <div class="col-8">
-
-    @include('index.place-carousel')
-    </div>
-    <div class="col-4">
-
-    </div>
+    <img src="{{ asset('img/img10.jpg') }}" class="d-block w-100" alt="..." style="height: 800px;">
 
   </div>
 
