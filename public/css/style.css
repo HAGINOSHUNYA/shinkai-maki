@@ -16,10 +16,71 @@ h3{
 li{
   display:inline-block;/*横並び*/
   list-style-type:disc;/*要素をブロックレベル要素として表示*/
-  margin-block-start:1em;/*リストのマーカーを円形のディスクに設定*/
-  margin-block-end:1px;/*リストの上側のマージンを設定*/
+  margin-block-start:0px;/*リストのマーカーを円形のディスクに設定*/
+  margin-block-end:0px;/*リストの上側のマージンを設定*/
   margin-inline-start:0px;/*リストの下側のマージンを設定*/
   margin-inline-end:0px;/*右側のマージン*/
-  padding-inline-start:40px;/*左側のマージン*/
+  padding-inline-start:0px;/*左側のマージン*/
   unicode-bidi:isolate;/**/
+}
+ul{
+  padding-left:0px;/**/
+  padding-bottom: 0px;
+  padding-left:0px ;
+  padding-right: 0px;
+  
+}
+
+/* デスクトップ用のナビゲーションメニュー */
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* モバイル用のナビゲーションメニュー */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none; /* デフォルトでは非表示 */
+    position: absolute;
+    top: 80px; /* ハンバーガーボタンからの位置 */
+    right: 0; /* ハンバーガーボタンの右側に配置 */
+    width: auto;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000; /* カルーセルよりも上に表示する */
+
+    
+  }
+
+  .nav-links.active {
+    display: flex; /* メニューがアクティブの場合は表示 */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* ハンバーガーメニューボタンが最前面に表示されるように */
+  }
+
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .burger {
+    display: none;
+  }
 }
