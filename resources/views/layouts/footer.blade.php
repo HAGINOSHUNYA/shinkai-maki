@@ -1,7 +1,7 @@
 <hr>
 <div class="footer">
 <h1>シンカイ銘木</h1>
-<p>
+<p class="footer-font">
   〒931-8434<br>
   富山県富山市三上6<br>
   Tel:076-451-8048
