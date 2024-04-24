@@ -7,4 +7,9 @@
   Tel:076-451-8048
   Fax:076-451-3337
 </p>
+
+<a href="#top" class="top-icon link-dark text-decoration-none">
+<i class="fa-solid fa-caret-up"></i>
+<p>TOP</p>
+</a>
 </div>

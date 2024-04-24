@@ -12,7 +12,7 @@
   </div>
 
   
-    <h3 style="text-align: center;">商品の紹介</h3>
+    <h3 style="text-align: center;" id="1">商品の紹介</h3>
       <div class="row parent">
          <img src="{{ asset('img/img5.jpg') }}" class="background-image" alt="..." style="height: 500px;">
         <div class="col-12 ">
@@ -22,7 +22,7 @@
       </div>
 
   <div class="row">
-    <h3 style="text-align: center;">価格</h3>
+    <h3 style="text-align: center;" id="2">価格</h3>
     <div class="col-8">
         @include('index.place-carousel')
     </div>
@@ -33,7 +33,7 @@
   </div>
 
   <div class="row">
-    <h3 style="text-align: center;">引き取り場所</h3>
+    <h3 style="text-align: center;" id="3">引き取り場所</h3>
     <img src="{{ asset('img/map.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
   </div>
 
@@ -51,12 +51,12 @@
   </div>
 
   <div class="row">
-      <h3 style="text-align: center;">よくある質問</h3>
+      <h3 style="text-align: center;" id="4">よくある質問</h3>
       @include('index.accodion')
   </div>
 
   <div class="row">
-    <h3 style="text-align: center;">会社概要・お問い合わせ</h3>
+    <h3 style="text-align: center;" id="5">会社概要・お問い合わせ</h3>
     <div class="col-4">
     <img src="{{ asset('img/logo.jpg') }}" class="d-block w-100" alt="会社の外観" style="height: 300px;">
 

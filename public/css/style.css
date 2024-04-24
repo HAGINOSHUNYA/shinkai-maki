@@ -115,6 +115,25 @@ ul{
   object-fit: cover;
   
 }
+/**/
+.link-dark{
+  color: white; /* テキストの色を白に設定 */
+  margin-inline-end:10px;/*右側のマージン*/
+}
+.top-icon{
+ 
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 50px;
+  background-color: beige;
+  border-radius: 70%; /* ボタンを円形に切り取る */
+  position: fixed; /* ボタンを固定位置に配置 */
+  bottom: 20px; /* 下からの位置を指定 */
+  right: 10px; /* 右からの位置を指定 */
+  color:black;
+}
 .overlay-font{
   position: absolute; /* overlay-font を親要素に対して絶対的な位置に配置 */
   top: 50%; /* 上端から50%の位置に配置 */

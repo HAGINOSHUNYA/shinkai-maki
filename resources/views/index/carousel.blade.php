@@ -8,22 +8,19 @@
     <div class="carousel-item active">
       <img src="{{ asset('img/logo.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h5>【針葉樹】松の木</h5>
-        <p>非常に火が付きやすく燃焼時間が長いです。</p>
+        
       </div>
     </div>
     <div class="carousel-item">
       <img src="{{ asset('img/img9.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h5>【広葉樹】ナラの木</h5>
-        <p>火力が高く火持ちが良いです。</p>
+        
       </div>
     </div>
     <div class="carousel-item">
       <img src="{{ asset('img/img7.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h5>【広葉樹】ケヤキ</h5>
-        <p>燃焼時間が長く、薪ストーブや暖炉での使用に最適です。</p>
+       
       </div>
     </div>
   </div>
