@@ -26,9 +26,11 @@
     <div class="col-8">
         @include('index.place-carousel')
     </div>
-     <div class="col-4">
-      <p>メッシュカゴ<br>約1㎥:￥27000円(税抜き)</p>
-      <p>配達:5000円～</p>
+     <div class="col-4" style="background-color: azure;">
+      <p class="content">メッシュカゴ<br>約1㎥:￥27000円(税抜き)</p>
+      <p class="content">配達:5000円～</p>
+      <p><small>※機材の関係で道路状況に応じて料金は変動します。<br>
+          詳しくはお問い合わせください。</small></p>
      </div>
   </div>
 
@@ -42,8 +44,8 @@
     <div class="col-6">
       <img src="{{ asset('img/img10.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
     </div>
-    <div class="col-6">
-      <p>住所的な</p>
+    <div class="col-6" style="background-color: azure;">
+      <p class="content">富山県富山市三上97</p>
     </div>
 
   <div class="row">
