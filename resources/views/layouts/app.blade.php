@@ -12,6 +12,7 @@
   <meta name="description" content="富山の薪販売・配達承っております。お気軽にご相談ください。">
 
   <meta name="google-site-verification" content="S5qAsUTcNBqjamgOcs2FzxfCVGv5dGQ2AIA14liyu5U" />
+  <meta name="msvalidte.01" content="F488C425FFA9BC8041A44F0F298B2D21"/>
   {{-- BootStrap --}}
   <!--CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
