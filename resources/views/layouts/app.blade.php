@@ -11,6 +11,7 @@
   <meta name="keywords" content="薪,薪販売,薪ストーブ,富山,シンカイ銘木,薪配達,集成材,立木伐採">
   <meta name="description" content="富山の薪販売・配達承っております。お気軽にご相談ください。">
 
+  <meta name="google-site-verification" content="S5qAsUTcNBqjamgOcs2FzxfCVGv5dGQ2AIA14liyu5U" />
   {{-- BootStrap --}}
   <!--CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
