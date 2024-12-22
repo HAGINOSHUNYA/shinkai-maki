@@ -1,3 +1,40 @@
+/* スマートフォン向け */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    padding: 10px;
+  }
+  .column {
+    display: block;
+    width: 100%;
+  }
+}
+/* タブレットとパソコン向け */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .column {
+    display: inline-block;
+    width: 48%;
+    margin-right: 4%;
+  }
+  .column:last-child {
+    margin-right: 0;
+  }
+}
+
+
+
+
+
+
 .footer{
   text-align: center; /* テキストを中央揃えにする */
   margin: 0 auto; /* 要素を水平方向に中央配置する */
@@ -9,6 +46,12 @@
 }
 .footer-font{
   color: aliceblue;
+}
+body{
+
+  background-color:aliceblue;
+
+
 }
 h1{
   color: white; /* テキストの色を白に設定 */
@@ -216,4 +259,20 @@ p {
   background-color: azure;
  
   
+}
+/* Google マップをレスポンシブにするためのスタイル */
+#map {
+  position: relative;
+  width: 100%; /* 親要素の幅に合わせて調整 */
+  padding-top: 56.25%; /* 16:9 のアスペクト比 */
+  height: 0;
+  overflow: hidden;
+}
+#map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }

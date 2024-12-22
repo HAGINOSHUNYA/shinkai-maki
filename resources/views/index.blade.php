@@ -36,20 +36,30 @@
 
   <div class="row">
     <h3 style="text-align: center;" id="3">引き取り場所</h3>
-    <img src="{{ asset('img/map.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
+
   </div>
 
-  <hr>
-  <div class="row">
-    <div class="col-6">
-      <img src="{{ asset('img/img10.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
-    </div>
-    <div class="col-6" style="background-color: azure;">
-      <p class="content">富山県富山市三上97</p>
-    </div>
 
   <div class="row">
-    <p></p>
+    <div class="col-12">
+      <img src="{{ asset('img/img10.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
+    </div>
+    <div class="col-12">
+      <hr>
+    </div>
+
+    <div class="col-12">
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.032296665185!2d137.2572295764413!3d36.72178557226963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff799d46127647d%3A0x8295b7caa3b0a559!2z44K344Oz44Kr44Kk6YqY5pyo!5e0!3m2!1sja!2sjp!4v1734786127268!5m2!1sja!2sjp" 
+        width=100% 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+    </div>
   </div>
 
   <div class="row">
