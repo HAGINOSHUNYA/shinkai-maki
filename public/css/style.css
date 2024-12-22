@@ -57,10 +57,9 @@ h1{
   color: white; /* テキストの色を白に設定 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 白抜き効果を付ける影 */
     font-family: "Dela Gothic One", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
-  
-  
+    display: inline-block; /* 枠線を文字の周りに適用 */ 
 }
 header {
   background-color: rgb(29, 29, 66);
@@ -259,20 +258,4 @@ p {
   background-color: azure;
  
   
-}
-/* Google マップをレスポンシブにするためのスタイル */
-#map {
-  position: relative;
-  width: 100%; /* 親要素の幅に合わせて調整 */
-  padding-top: 56.25%; /* 16:9 のアスペクト比 */
-  height: 0;
-  overflow: hidden;
-}
-#map iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
 }

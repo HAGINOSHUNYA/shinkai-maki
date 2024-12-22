@@ -7,7 +7,7 @@
   <hr style="size:10px;">
 
   <div class="row text-center">
-    <h1>薪販売・配達承ります！！</h1>
+    <h1>薪販売・配達承ります!!</h1>
     
   </div>
 
