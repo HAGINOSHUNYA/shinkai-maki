@@ -25,9 +25,10 @@
     <h3 style="text-align: center;" id="2">価格</h3>
     <div class="col-8">
         @include('index.place-carousel')
+        
     </div>
      <div class="col-4" style="background-color: azure;">
-      <p class="content">メッシュカゴ<br>約1㎥:￥27000円(税抜き)</p>
+      <p class="content">メッシュカゴ<br>約1㎥:￥29700円(税込)</p>
       <p class="content">配達:5000円～</p>
       <p><small>※機材の関係で道路状況に応じて料金は変動します。<br>
           詳しくはお問い合わせください。</small></p>
@@ -42,7 +43,7 @@
 
   <div class="row">
     <div class="col-12">
-      <img src="{{ asset('img/img10.jpg') }}" class="d-block w-100" alt="..." style="height: 500px;">
+      <img src="{{ asset('img/img10.jpg') }}" class="d-block w-100" alt="..." style="height: 800px;">
     </div>
     <div class="col-12">
       <hr>
