@@ -24,7 +24,7 @@
     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
       <div class="accordion-body">
       <i class="fa-solid fa-a"></i>
-      .最低5000円からです。機材の関係で載積量や道幅に応じて変動いたします。詳しくはお問い合わせください。
+      .最低5000円からです。載積量や道幅、機材の関係に応じて変動いたします。詳しくはお問い合わせください。
       </div>
     </div>
   </div>
