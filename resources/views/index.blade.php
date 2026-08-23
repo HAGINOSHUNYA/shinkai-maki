@@ -28,7 +28,7 @@
         
     </div>
      <div class="col-4" style="background-color: azure;">
-      <p class="content">メッシュカゴ<br>約1㎥:¥29,700円(税込)</p>
+      <p class="content">メッシュカゴ<br>約1㎥:¥31,900円(税込)</p>
       <p class="content">配達:¥5,000円～</p>
       <p><small>※機材や道路状況に応じて料金は変動します。<br>
           詳しくはお問い合わせください。</small></p>
