@@ -62,8 +62,8 @@
 
 
     {{-- CSS --}}
-    <link href="{{ asset('css/style.css') }}"
-          rel="stylesheet">
+  <link href="{{ asset('css/style.css') }}?v={{ filemtime(public_path('css/style.css')) }}"
+      rel="stylesheet">
 
 
     {{-- Font Awesome --}}
