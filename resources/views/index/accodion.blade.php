@@ -1,60 +1,167 @@
-<div class="accordion" id="accordionPanelsStayOpenExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-      <i class="fa-solid fa-q"></i>
-        .どのくらいから買えますか
+<div
+    class="accordion faq-accordion"
+    id="faqAccordion">
 
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-      <div class="accordion-body">
-      <i class="fa-solid fa-a"></i>
-      .最低販売単位は1㎥となります。
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-      <i class="fa-solid fa-q"></i>
-      .配達料はどれくらいですか。
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-      <div class="accordion-body">
-      <i class="fa-solid fa-a"></i>
-      .最低5000円からです。載積量や道幅、機材の関係に応じて変動いたします。詳しくはお問い合わせください。
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-      <i class="fa-solid fa-q"></i>
-      .1カゴでどれくらいの期間持ちますか。
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-      <div class="accordion-body">
-      <i class="fa-solid fa-a"></i>
-      .使う頻度や薪ストーブの大きさによって変わりますが、夜間のみの使用で約1か月弱ぐらい持ちます。余裕を持った購入をおすすめします。
-      </div>
-    </div>
-  </div>
 
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-      <i class="fa-solid fa-q"></i>
-      .カゴの回収について
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-      <div class="accordion-body">
-      <i class="fa-solid fa-a"></i>
-      .カゴが空き次第ご連絡いただければ、1週間以内に回収いたします。
-      </div>
+    {{-- FAQ 1 --}}
+    <div class="accordion-item">
+
+        <h3
+            class="accordion-header"
+            id="faqHeading1">
+
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqCollapse1"
+                aria-expanded="false"
+                aria-controls="faqCollapse1">
+
+                Q．どのくらいから買えますか？
+
+            </button>
+
+        </h3>
+
+
+        <div
+            id="faqCollapse1"
+            class="accordion-collapse collapse"
+            aria-labelledby="faqHeading1"
+            data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                A．最低販売単位は1㎥となります。
+
+            </div>
+
+        </div>
+
     </div>
-  </div>
+
+
+    {{-- FAQ 2 --}}
+    <div class="accordion-item">
+
+        <h3
+            class="accordion-header"
+            id="faqHeading2">
+
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqCollapse2"
+                aria-expanded="false"
+                aria-controls="faqCollapse2">
+
+                Q．配達料はどれくらいですか？
+
+            </button>
+
+        </h3>
+
+
+        <div
+            id="faqCollapse2"
+            class="accordion-collapse collapse"
+            aria-labelledby="faqHeading2"
+            data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                A．配達料は5,000円～となります。<br>
+                機材や道路状況に応じて料金は変動します。<br>
+                詳しくはお問い合わせください。
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    {{-- FAQ 3 --}}
+    <div class="accordion-item">
+
+        <h3
+            class="accordion-header"
+            id="faqHeading3">
+
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqCollapse3"
+                aria-expanded="false"
+                aria-controls="faqCollapse3">
+
+                Q．1カゴでどれくらいの期間持ちますか？
+
+            </button>
+
+        </h3>
+
+
+        <div
+            id="faqCollapse3"
+            class="accordion-collapse collapse"
+            aria-labelledby="faqHeading3"
+            data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                使用する薪ストーブや使用頻度などによって
+                消費量が異なります。<br>
+                詳しくはお問い合わせください。
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    {{-- FAQ 4 --}}
+    <div class="accordion-item">
+
+        <h3
+            class="accordion-header"
+            id="faqHeading4">
+
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqCollapse4"
+                aria-expanded="false"
+                aria-controls="faqCollapse4">
+
+                Q．カゴの回収について
+
+            </button>
+
+        </h3>
+
+
+        <div
+            id="faqCollapse4"
+            class="accordion-collapse collapse"
+            aria-labelledby="faqHeading4"
+            data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                カゴの回収については、
+                ご注文時にお問い合わせください。
+
+            </div>
+
+        </div>
+
+    </div>
+
+
 </div>
