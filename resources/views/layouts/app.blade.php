@@ -14,10 +14,13 @@
     <meta name="description"
           content="富山の薪販売・配達承っております。お気軽にご相談ください。">
 
-    {{-- Google Search Console --}}
+   {{-- Google Search Console（以前の認証） --}}
     <meta name="google-site-verification"
-          content="S5qAsUTcNBqjamgOcs2FzxfCVGv5dGQ2AIA14liyu5U">
+          content="5SqAsUTCNBqjamgOcs2FzxfCVGv5dGQ2AIA14liyu5U">
 
+    {{-- Google Search Console（今回の認証） --}}
+    <meta name="google-site-verification"
+          content="ZoOWiXzi8sABhfyDeRn3FcEbQC87E49wXmxTEOMi64Y">
     {{-- Bing --}}
     <meta name="msvalidate.01"
           content="F48BC425FFA9BC8041A44F0F298B2D21">
