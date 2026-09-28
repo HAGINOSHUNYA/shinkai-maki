@@ -23,21 +23,28 @@
           content="F48BC425FFA9BC8041A44F0F298B2D21">
 
 
-    {{-- OGP --}}
-    <meta property="og:title"
-          content="薪販売【富山市の薪ストーブ用】｜シンカイ銘木">
+     {{-- OGP --}}
+      <meta property="og:title"
+            content="薪販売【富山市の薪ストーブ用】｜シンカイ銘木">
 
-    <meta property="og:description"
-          content="富山市で薪ストーブ用の薪を販売しています。配達も可能です。">
+      <meta property="og:description"
+            content="富山市で薪ストーブ用の薪を販売しています。配達も可能です。">
 
-    <meta property="og:image"
-          content="URL_TO_IMAGE">
+      <meta property="og:image"
+            content="{{ asset('img/ogp.jpg') }}">
 
-    <meta property="og:url"
-          content="URL_TO_PAGE">
+      <meta property="og:url"
+            content="{{ url('/') }}">
 
-    <meta property="og:type"
-          content="website">
+      <meta property="og:type"
+            content="website">
+
+      <meta property="og:site_name"
+            content="シンカイ銘木">
+
+    {{-- Google画像プレビュー --}}
+      <meta name="robots"
+            content="max-image-preview:large">
 
 
     {{-- Bootstrap --}}
